@@ -1,9 +1,27 @@
 <!doctype html>
-
 <html lang="en">
    
    
     <head>
+       <style>
+             .custom-dashboard-btn 
+           {
+              color: white;
+              background-color: #393E46;
+              border: 2px solid #393E46;
+              padding: 10px 20px;
+              border-radius: 8px;
+              font-weight: bold;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+            }
+          
+            .custom-dashboard-btn:hover 
+            {
+              background-color: #2e333a; /* darker shade for hover effect */
+            }         
+       </style>
+
        
        
         <!-- META -->
@@ -204,10 +222,9 @@
                                
                               <button 
                                   type="submit" 
-                                  class="form-control scroll-animated" 
-                                  style="color: white; background-color: 393E46; border: 2px solid #0056b3; padding: 10px 20px; border-radius: 8px; cursor: pointer;" 
-                                  onclick="window.open('https://app.powerbi.com/reportEmbed?reportId=07b15bad-a760-46f1-bac0-9e23ef479a6e&autoAuth=true&ctid=f06beb55-05d5-4ddf-bacc-a4319edab2ed')">
-                                  <b>View Power BI Dashboard</b>
+                                  class="form-control scroll-animated-from-right" 
+<!--                                   class="form-control scroll-animated custom-dashboard-btn" -->
+                                  onclick="window.open('https://app.powerbi.com/view?r=XXXX')">View Power BI Dashboard
                               </button>
 
                                 
