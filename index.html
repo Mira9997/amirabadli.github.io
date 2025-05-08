@@ -1,34 +1,6 @@
 <!doctype html>
 <html lang="en">
    <head>
-      <style>
-         .custom-nav {
-         list-style: none;
-         display: flex;
-         gap: 15px;
-         padding: 0;
-         margin: 20px 0;
-         justify-content: center;
-         }
-         .custom-tab {
-         background-color: #eeeeee;
-         color: #393E46;
-         padding: 10px 20px;
-         border-radius: 999px; /* makes it oval */
-         cursor: pointer;
-         border: 2px solid transparent;
-         font-weight: bold;
-         transition: all 0.3s ease;
-         }
-         .custom-tab:hover {
-         background-color: #d6d6d6;
-         }
-         .custom-tab.active {
-         background-color: #393E46;
-         color: white;
-         border: 2px solid #393E46;
-         }
-      </style>
       <!-- META -->
       <meta charset="utf-8">
       <meta name="robots" content="noodp">
@@ -88,16 +60,16 @@
                <!--   Hi there, I'm Amira. A junior data analyst passionate about solving problems with data.
                   I created this space to showcase the projects I’ve been working on, mostly using SQL, Power BI, and a touch of Python. Have a look around! -->
             </section>
-    
+   
           <!-- WORK -->
           <section id="work">
               <button class="filter-button" data-filter="powerbi">Power BI</button>
               <button class="filter-button" data-filter="python">Python</button>
-	      <button class="filter-button" data-filter="sql">SQL</button>
                <!-- SHOWCASE -->
                 <div class="showcase">
                   <!-- ITEM 1 -->
-		 <div class="item scroll-animated portfolio-item" data-category="powerbi">
+<!--                  <div class="item scroll-animated"> -->
+		  <div class="item scroll-animated portfolio-item" data-category="powerbi">
                      <!-- LIGHTBOX LINK -->
                      <a href="#" data-featherlight="#item-1-lightbox">
                         <!-- INFO -->
@@ -126,6 +98,7 @@
                   <!-- /ITEM 1 -->
 
                   <!-- ITEM 2 -->
+<!--                   <div class="item scroll-animated"> -->
                   <div class="item scroll-animated portfolio-item" data-category="python">
                      <!-- LIGHTBOX LINK -->
                      <a href="#" data-featherlight="#item-2-lightbox">
@@ -145,7 +118,7 @@
                      <!-- LIGHTBOX -->
                      <div id="item-2-lightbox" class="work-lightbox">
                         <img class="img-responsive" src="assets/img/work/item-2.jpg" alt="image">
-                        <h3>Natural Language Processing</h3>
+                        <h3>Credit Card Fraud Detection</h3>
                         <p class="subline">Python</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper faucibus eros, quis imperdiet sapien. Nam sodales nec risus nec interdum. Proin lobortis, ex condimentum ultricies eleifend, nisl nunc sollicitudin odio, eget egestas est turpis et metus. In non ligula quis mauris rutrum porta.</p>
                         <p>Integer scelerisque et orci in maximus. Nullam ac finibus nisi. Sed libero tellus, fringilla in posuere vitae, sollicitudin consectetur odio. Morbi pharetra tortor quis risus hendrerit, ut tincidunt arcu vehicula. Integer consequat lorem nisl, sit amet euismod libero fringilla placerat. Proin semper consequat ultricies. Vivamus condimentum tortor ac quam tristique, eget rhoncus arcu suscipit.</p>
@@ -153,36 +126,7 @@
                      <!-- /LIGHTBOX -->
                   </div>
                   <!-- /ITEM 2 -->
-
-		  <!-- ITEM 3 -->
-                  <div class="item scroll-animated portfolio-item" data-category="sql">
-                     <!-- LIGHTBOX LINK -->
-                     <a href="#" data-featherlight="#item-3-lightbox">
-                        <!-- INFO -->
-                        <div class="info">
-                           <!-- CONTAINER MID -->
-                           <div class="container-mid">
-                              <h5>Data Cleaning</h5>
-                              <p>SQL</p>
-                           </div>
-                           <!-- /CONTAINER MID -->
-                        </div>
-                        <!-- /INFO -->
-                        <div class="background-image" style="background-image: url(assets/img/work/item-3.jpg)"></div>
-                     </a>
-                     <!-- /LIGHTBOX LINK -->
-                     <!-- LIGHTBOX -->
-                     <div id="item-3-lightbox" class="work-lightbox">
-                        <img class="img-responsive" src="assets/img/work/item-3.jpg" alt="image">
-                        <h3>Data Cleaning</h3>
-                        <p class="subline">SQL</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper faucibus eros, quis imperdiet sapien. Nam sodales nec risus nec interdum. Proin lobortis, ex condimentum ultricies eleifend, nisl nunc sollicitudin odio, eget egestas est turpis et metus. In non ligula quis mauris rutrum porta.</p>
-                        <p>Integer scelerisque et orci in maximus. Nullam ac finibus nisi. Sed libero tellus, fringilla in posuere vitae, sollicitudin consectetur odio. Morbi pharetra tortor quis risus hendrerit, ut tincidunt arcu vehicula. Integer consequat lorem nisl, sit amet euismod libero fringilla placerat. Proin semper consequat ultricies. Vivamus condimentum tortor ac quam tristique, eget rhoncus arcu suscipit.</p>
-                     </div>
-                     <!-- /LIGHTBOX -->
-                  </div>
-                  <!-- /ITEM 3 -->
-
+                   
                </div>
                <!-- /SHOWCASE -->
             </section>
