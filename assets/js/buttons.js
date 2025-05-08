@@ -1,3 +1,4 @@
+console.log("✅ buttons.js is loaded!");
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const filterButtons = document.querySelectorAll(".filter-button");
