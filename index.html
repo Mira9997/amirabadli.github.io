@@ -1,6 +1,34 @@
 <!doctype html>
 <html lang="en">
    <head>
+      <style>
+         .custom-nav {
+         list-style: none;
+         display: flex;
+         gap: 15px;
+         padding: 0;
+         margin: 20px 0;
+         justify-content: center;
+         }
+         .custom-tab {
+         background-color: #eeeeee;
+         color: #393E46;
+         padding: 10px 20px;
+         border-radius: 999px; /* makes it oval */
+         cursor: pointer;
+         border: 2px solid transparent;
+         font-weight: bold;
+         transition: all 0.3s ease;
+         }
+         .custom-tab:hover {
+         background-color: #d6d6d6;
+         }
+         .custom-tab.active {
+         background-color: #393E46;
+         color: white;
+         border: 2px solid #393E46;
+         }
+      </style>
       <!-- META -->
       <meta charset="utf-8">
       <meta name="robots" content="noodp">
@@ -60,12 +88,7 @@
                <!--   Hi there, I'm Amira. A junior data analyst passionate about solving problems with data.
                   I created this space to showcase the projects I’ve been working on, mostly using SQL, Power BI, and a touch of Python. Have a look around! -->
             </section>
-            
-            <!-- /ABOUT -->
-            <!--    <ul class="custom-nav">
-               <li class="custom-tab active">Power BI</li>
-               <li class="custom-tab">Python</li>
-            </ul> -->      
+    
           <!-- WORK -->
           <section id="work">
               <button class="filter-button" data-filter="powerbi">Power BI</button>
@@ -73,8 +96,7 @@
                <!-- SHOWCASE -->
                 <div class="showcase">
                   <!-- ITEM 1 -->
-<!--                  <div class="item scroll-animated"> -->
-				     <div class="item scroll-animated portfolio-item" data-category="powerbi">
+		 <div class="item scroll-animated portfolio-item" data-category="powerbi">
                      <!-- LIGHTBOX LINK -->
                      <a href="#" data-featherlight="#item-1-lightbox">
                         <!-- INFO -->
@@ -103,7 +125,6 @@
                   <!-- /ITEM 1 -->
 
                   <!-- ITEM 2 -->
-<!--                   <div class="item scroll-animated"> -->
                   <div class="item scroll-animated portfolio-item" data-category="python">
                      <!-- LIGHTBOX LINK -->
                      <a href="#" data-featherlight="#item-2-lightbox">
@@ -131,7 +152,6 @@
                      <!-- /LIGHTBOX -->
                   </div>
                   <!-- /ITEM 2 -->
-                   
                </div>
                <!-- /SHOWCASE -->
             </section>
