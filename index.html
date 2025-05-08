@@ -4,6 +4,38 @@
    
    
     <head>
+       <style>
+  .custom-nav {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 20px 0;
+    justify-content: center;
+  }
+
+  .custom-tab {
+    background-color: #eeeeee;
+    color: #393E46;
+    padding: 10px 20px;
+    border-radius: 999px; /* makes it oval */
+    cursor: pointer;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+  .custom-tab:hover {
+    background-color: #d6d6d6;
+  }
+
+  .custom-tab.active {
+    background-color: #393E46;
+    color: white;
+    border: 2px solid #393E46;
+  }
+</style>
+
        
        
         <!-- META -->
@@ -97,167 +129,27 @@
 
                     <h3 class="headline scroll-animated">About Me</h3>
                     
-                    <p class="scroll-animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis magna ac justo tincidunt, nec rhoncus leo rutrum. Duis mattis, neque id consectetur gravida, ligula massa consequat mi, id ultricies massa mauris eu augue. Donec dictum diam vitae dui iaculis, vitae laoreet sem molestie. Suspendisse hendrerit interdum euismod.</p>
-
-                    <p class="scroll-animated">In dui augue, pretium eget vulputate at, maximus eget augue. Vestibulum porttitor a nisl in rhoncus. Etiam libero est, pellentesque eleifend arcu at, congue gravida ex. Sed et nisl ultrices, mattis purus et, commodo quam. Etiam lacus est, faucibus ut mattis sed, mattis non enim. Maecenas elementum malesuada lorem, ut vestibulum erat iaculis non. Donec nec diam id dolor hendrerit sollicitudin.</p>
-                    
-                    
-                    <!-- CLIENTS -->
-                    <div class="row clients scroll-animated">
-                        
-                        
-                        <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/clients/client-1.png" alt="client"></div>
-                        <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/clients/client-2.png" alt="client"></div>
-                        <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/clients/client-3.png" alt="client"></div>
-                        <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/clients/client-4.png" alt="client"></div>
-                        
-                        
-                    </div>
-                    <!-- /CLIENTS -->
-
+                    <p class="scroll-animated">Just a data enthusiast who thinks charts are cooler than they get credit for.
+                                               Specialize in transforming data into meaningful insights using tools like SQL and Power BI.</p>
+                    <p class="scroll-animated">This site is a growing collection of my analytics projects. Feel free to explore!</p>
+                   
+                   <!--   Hi there, I'm Amira. A junior data analyst passionate about solving problems with data.
+                          I created this space to showcase the projects I’ve been working on, mostly using SQL, Power BI, and a touch of Python. Have a look around! -->
 
                 </section>
                 <!-- /ABOUT -->
-                
-                
-                <!-- SERVICE -->
-                <section id="service">
 
-
-                    <h3 class="headline scroll-animated">Services</h3>
-                    
-                    
-                    <!-- SERVICE LIST -->
-                    <ul class="services-list">
-                       
-                       
-                        <!-- SERVICE ITEM -->
-                        <li class="service-item scroll-animated">
-                           
-                           
-                            <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-1" aria-expanded="false">Webdesign</button>
-                            
-                            
-                            <!-- COLLAPSE CONTENT -->
-                            <div class="collapse" id="collapse-item-1">
-                               
-                               
-                                <!-- COLLAPSE CONTENT INNER -->
-                                <div class="well">
-                                   
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis magna ac justo tincidunt, nec rhoncus leo rutrum. Duis mattis, neque id consectetur gravida, ligula massa consequat mi, id ultricies massa mauris eu augue. Donec dictum diam vitae dui iaculis, vitae laoreet sem molestie.</p>
-                                    
-                                </div>
-                                <!-- /COLLAPSE CONTENT INNER -->
-                                
-                                
-                            </div>
-                            <!-- /COLLAPSE CONTENT -->
-                            
-                            
-                        </li>
-                        <!-- /SERVICE ITEM -->
-                        
-                        
-                        <!-- SERVICE ITEM -->
-                        <li class="service-item scroll-animated">
-                           
-                           
-                            <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-2" aria-expanded="false">Marketing</button>
-                            
-                            
-                            <!-- COLLAPSE CONTENT -->
-                            <div class="collapse" id="collapse-item-2">
-                               
-                               
-                                <!-- COLLAPSE CONTENT INNER -->
-                                <div class="well">
-                                   
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis magna ac justo tincidunt, nec rhoncus leo rutrum. Duis mattis, neque id consectetur gravida, ligula massa consequat mi, id ultricies massa mauris eu augue. Donec dictum diam vitae dui iaculis, vitae laoreet sem molestie.</p>
-                                    
-                                </div>
-                                <!-- /COLLAPSE CONTENT INNER -->
-                                
-                                
-                            </div>
-                            <!-- /COLLAPSE CONTENT -->
-                            
-                            
-                        </li>
-                        <!-- /SERVICE ITEM -->
-                        
-                        
-                        <!-- SERVICE ITEM -->
-                        <li class="service-item scroll-animated">
-                           
-                           
-                            <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-3" aria-expanded="false">Analytics</button>
-                            
-                            
-                            <!-- COLLAPSE CONTENT -->
-                            <div class="collapse" id="collapse-item-3">
-                               
-                               
-                                <!-- COLLAPSE CONTENT INNER -->
-                                <div class="well">
-                                   
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis magna ac justo tincidunt, nec rhoncus leo rutrum. Duis mattis, neque id consectetur gravida, ligula massa consequat mi, id ultricies massa mauris eu augue. Donec dictum diam vitae dui iaculis, vitae laoreet sem molestie.</p>
-                                    
-                                </div>
-                                <!-- /COLLAPSE CONTENT INNER -->
-                                
-                                
-                            </div>
-                            <!-- /COLLAPSE CONTENT -->
-                            
-                            
-                        </li>
-                        <!-- /SERVICE ITEM -->
-                        
-                        
-                        <!-- SERVICE ITEM -->
-                        <li class="service-item scroll-animated">
-                           
-                           
-                            <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-4" aria-expanded="false">UI &amp; UX Design</button>
-                            
-                            
-                            <!-- COLLAPSE CONTENT -->
-                            <div class="collapse" id="collapse-item-4">
-                               
-                               
-                                <!-- COLLAPSE CONTENT INNER -->
-                                <div class="well">
-                                   
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis magna ac justo tincidunt, nec rhoncus leo rutrum. Duis mattis, neque id consectetur gravida, ligula massa consequat mi, id ultricies massa mauris eu augue. Donec dictum diam vitae dui iaculis, vitae laoreet sem molestie.</p>
-                                    
-                                </div>
-                                <!-- /COLLAPSE CONTENT INNER -->
-                                
-                                
-                            </div>
-                            <!-- /COLLAPSE CONTENT -->
-                            
-                            
-                        </li>
-                        <!-- /SERVICE ITEM -->
-                        
-                        
-                    </ul>
-                    <!-- /SERVICE LIST -->
-
-
-                </section>
-                <!-- /SERVICE -->
-                
+               <ul class="custom-nav">
+                 <li class="custom-tab active">Power BI</li>
+                 <li class="custom-tab">Tableau</li>
+                 <li class="custom-tab">Python</li>
+               </ul>
                 
                 <!-- WORK -->
                 <section id="work">
 
-
-                    <h3 class="headline scroll-animated">Latest Work</h3>
-                    
-                    
+                    <h3 class="headline scroll-animated">Projects</h3>
+                      
                     <!-- SHOWCASE -->
                     <div class="showcase">
                        
