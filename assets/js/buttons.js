@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  if (filterButtons.length > 0) {
-    filterButtons[0].classList.add("active");
-    filterButtons[0].click();
-  }
-});
+//   if (filterButtons.length > 0) {
+//     filterButtons[0].classList.add("active");
+//     filterButtons[0].click();
+//   }
+// });
