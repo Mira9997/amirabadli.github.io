@@ -606,7 +606,7 @@ button
 /** 8. Content Area --> Work
 *******************************************************************/
 /* Filter Buttons Wrapper */
-#work {
+/* #work {
   padding: 40px 20px;
 }
 
@@ -634,7 +634,7 @@ button
 .filter-button.active {
   background-color: #0056b3;
   color: white;
-}
+} */
 ###########################################################################################################
 
 #work .showcase .item
