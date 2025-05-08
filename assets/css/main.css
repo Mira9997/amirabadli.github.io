@@ -605,37 +605,6 @@ button
 
 /** 8. Content Area --> Work
 *******************************************************************/
-/* Filter Buttons Wrapper */
-/* #work {
-  padding: 40px 20px;
-} */
-
-/* Filter Buttons */
-/* .filter-button {
-  display: inline-block;
-  margin: 10px 10px 30px 0; 
-  padding: 10px 20px;
-  border: none;
-  border-radius: 999px; 
-  background-color: #f0f0f0;
-  color: #333;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-} */
-
-/* Hover Effect */
-/* .filter-button:hover {
-  background-color: #007bff;
-  color: white;
-} */
-
-/* Active Button */
-/* .filter-button.active {
-  background-color: #0056b3;
-  color: white;
-} */
-###########################################################################################################
 
 #work .showcase .item
 {
