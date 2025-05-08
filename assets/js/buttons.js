@@ -3,6 +3,11 @@
     const filterButtons = document.querySelectorAll(".filter-button");
     const projects = document.querySelectorAll(".portfolio-item");
 
+    // Hide all portfolio items on page load
+        projects.forEach((project) => {
+        project.style.display = "none";
+    });
+
     filterButtons.forEach((btn) => {
       btn.addEventListener("click", function () {
         // Remove 'active' class from all buttons
