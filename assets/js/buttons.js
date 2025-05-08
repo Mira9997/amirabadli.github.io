@@ -1,34 +1,20 @@
-console.log("✅ buttons.js is loaded!");
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const filterButtons = document.querySelectorAll(".filter-button");
-    const projects = document.querySelectorAll(".portfolio-item");
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("✅ JavaScript loaded!");
 
-    // Hide all portfolio items on page load
-        projects.forEach((project) => {
-        project.style.display = "none";
-    });
+  const filterButtons = document.querySelectorAll(".filter-button");
+  const projects = document.querySelectorAll(".portfolio-item");
 
-    filterButtons.forEach((btn) => {
-      btn.addEventListener("click", function () {
-        // Remove 'active' class from all buttons
-        filterButtons.forEach((b) => b.classList.remove("active"));
+  filterButtons.forEach((btn) => {
+    btn.addEventListener("click", function () {
+      filterButtons.forEach((b) => b.classList.remove("active"));
+      this.classList.add("active");
 
-        // Add 'active' to clicked button
-        this.classList.add("active");
+      const filter = this.getAttribute("data-filter");
 
-        const filter = this.getAttribute("data-filter");
-
-        projects.forEach((project) => {
-          const category = project.getAttribute("data-category");
-
-          if (filter === "all" || category === filter) {
-            project.style.display = "block";
-          } else {
-            project.style.display = "none";
-          }
-        });
+      projects.forEach((project) => {
+        const category = project.getAttribute("data-category");
+        project.style.display = (filter === "all" || category === filter) ? "block" : "none";
       });
     });
   });
-</script>
+});
