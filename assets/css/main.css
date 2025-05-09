@@ -610,6 +610,12 @@ button
   text-align: center; /* Optional: center the title */
 }
 
+/* Container for buttons - optional spacing helper */
+#work {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 /* Filter buttons styling */
 .filter-button {
   background-color: #f0f0f0;
