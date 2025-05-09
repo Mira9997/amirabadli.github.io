@@ -607,12 +607,12 @@ button
 *******************************************************************/
 #work > h3 {
   margin-bottom: 1.5rem;
-  text-align: center; /* Optional: center the title */
+/*   text-align: center; */ 
 }
 
 /* Container for buttons - optional spacing helper */
 #work {
-  text-align: center;
+/*   text-align: center; */
   margin-bottom: 2rem;
 }
 
