@@ -616,31 +616,30 @@ button
   margin-bottom: 2rem;
 }
 
-/* Transparent base style */
+/* Transparent oval filter buttons with white border and text */
 .filter-button {
   background-color: transparent;
-  border: 2px solid #fff; /* Outline in your brand color */
+  border: 2px solid white;
   padding: 10px 20px;
   margin: 0 10px 20px;
-  border-radius: 999px;
+  border-radius: 999px; /* Makes it oval */
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: #007bff;
+  color: white;
 }
 
 /* Hover effect */
 .filter-button:hover {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #393E46;
+  color: #ffffff; /* Optional: make text dark on hover for contrast */
 }
 
 /* Active state */
 .filter-button.active {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #DDDDDD;
+  color: #000;
 }
-
 
 
 
