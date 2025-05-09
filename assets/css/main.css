@@ -629,6 +629,18 @@ button
   color: #333;
 }
 
+/* Hover effect */
+.filter-button:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+/* Active state */
+.filter-button.active {
+  background-color: #007bff; /* Change this to match your brand color */
+  color: #fff;
+}
+
 
 
 
