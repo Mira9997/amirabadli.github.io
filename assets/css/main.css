@@ -616,28 +616,28 @@ button
   margin-bottom: 2rem;
 }
 
-/* Filter buttons styling */
+/* Transparent base style */
 .filter-button {
-  background-color: #f0f0f0;
-  border: none;
+  background-color: transparent;
+  border: 2px solid #fff; /* Outline in your brand color */
   padding: 10px 20px;
   margin: 0 10px 20px;
-  border-radius: 999px; /* Makes it oval */
+  border-radius: 999px;
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: #333;
+  color: #007bff;
 }
 
 /* Hover effect */
 .filter-button:hover {
-  background-color: #E0E0E0;
-  color: #000;
+  background-color: #007bff;
+  color: #fff;
 }
 
 /* Active state */
 .filter-button.active {
-  background-color: #40128B; /* Change this to match your brand color */
+  background-color: #007bff;
   color: #fff;
 }
 
