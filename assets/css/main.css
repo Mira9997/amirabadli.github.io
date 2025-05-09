@@ -622,7 +622,7 @@ button
   border: 2px solid white;
   padding: 10px 20px;
   margin: 0 10px 20px;
-  border-radius: 999px; /* Makes it oval */
+  border-radius: 999px; 
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -631,14 +631,14 @@ button
 
 /* Hover effect */
 .filter-button:hover {
-  background-color: #393E46;
+  background-color: #17191b;
   color: #ffffff; /* Optional: make text dark on hover for contrast */
 }
 
 /* Active state */
 .filter-button.active {
-  background-color: #DDDDDD;
-  color: #000;
+  background-color: #17191b;
+  color: #ffffff;
 }
 
 
