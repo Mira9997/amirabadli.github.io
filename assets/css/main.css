@@ -622,17 +622,19 @@ button
   border: 2px solid white;
   padding: 10px 20px;
   margin: 0 10px 20px;
-  border-radius: 999px; 
+  border-radius: 999px;
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
   color: white;
+  min-width: 120px;: 120px; 
+  text-align: center;
 }
 
 /* Hover effect */
 .filter-button:hover {
   background-color: #17191b;
-  color: #ffffff; /* Optional: make text dark on hover for contrast */
+  color: #ffffff;
 }
 
 /* Active state */
