@@ -631,13 +631,13 @@ button
 
 /* Hover effect */
 .filter-button:hover {
-  background-color: #ddd;
+  background-color: #E0E0E0;
   color: #000;
 }
 
 /* Active state */
 .filter-button.active {
-  background-color: #007bff; /* Change this to match your brand color */
+  background-color: #40128B; /* Change this to match your brand color */
   color: #fff;
 }
 
